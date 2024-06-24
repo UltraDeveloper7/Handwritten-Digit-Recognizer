@@ -1,0 +1,6 @@
+numpy
+keras
+tensorflow
+pillow
+customtkinter
+pywin32
