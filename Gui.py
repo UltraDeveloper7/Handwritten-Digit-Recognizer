@@ -6,6 +6,9 @@ from PIL import ImageGrab, Image
 import numpy as np
 from train_digit_recognizer import MNISTModel
 
+mnist_model = MNISTModel()
+mnist_model.run()
+
 model = load_model('mnist.h5')
 
 def predict_digit(img):
@@ -71,8 +74,5 @@ class App(ctk.CTk):
 
 
 if __name__ == "__main__":
-    mnist_model = MNISTModel()
-    mnist_model.run()
-
     app = App()
     app.mainloop()
