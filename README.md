@@ -1,4 +1,5 @@
 # Handwritten Digit Recognizer
+![image](https://github.com/UltraDeveloper7/Handwritten-Digit-Recognizer/assets/75303541/f3b4ee85-6c45-421b-a651-bdae759e53e2)
 
 ## Overview
 This repository contains the source code for a Handwritten Digit Recognizer using the MNIST dataset. The application allows users to train a model to recognize handwritten digits and provides a graphical user interface (GUI) to draw digits and get predictions.
