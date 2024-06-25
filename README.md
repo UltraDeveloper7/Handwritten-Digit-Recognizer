@@ -1,5 +1,6 @@
 # Handwritten Digit Recognizer
-![image](https://github.com/UltraDeveloper7/Handwritten-Digit-Recognizer/assets/75303541/f3b4ee85-6c45-421b-a651-bdae759e53e2)
+![image](https://github.com/UltraDeveloper7/Handwritten-Digit-Recognizer/assets/75303541/2ca7f1e8-424c-404d-bca6-fbe29a7cacee)
+
 
 ## Overview
 This repository contains the source code for a Handwritten Digit Recognizer using the MNIST dataset. The application allows users to train a model to recognize handwritten digits and provides a graphical user interface (GUI) to draw digits and get predictions.
@@ -75,7 +76,45 @@ To use the Handwritten Digit Recognizer, follow the instructions in the "Running
     python Gui.py
     ```
 
-3. A window will appear where you can draw digits. Press the "Recognize" button to get the model's prediction and accuracy for the drawn digit. Press the "Clear" button to clear the canvas.
+## Instructions 
+Instructions:
+Open the Application:
+
+Launch the Handwritten Digit Recognizer application.
+Draw a Digit:
+
+Using your mouse, draw a digit inside the white canvas area labeled "Draw..".
+Recognize the Digit:
+
+Press the "Recognize" button located below the canvas to get the model's prediction.
+The application will display the recognized digit and the accuracy percentage just above the canvas.Based on the provided image and your previous instructions, here's the complete step-by-step guide for using the Handwritten Digit Recognizer application:
+
+## Instructions:
+
+1. **Open the Application**:
+   - Launch the Handwritten Digit Recognizer application.
+
+2. **Draw a Digit**:
+   - Using your mouse, draw a digit inside the white canvas area labeled "Draw..".
+
+3. **Recognize the Digit**:
+   - Press the "Recognize" button located below the canvas to get the model's prediction.
+   - The application will display the recognized digit and the accuracy percentage just above the canvas.
+
+4. **Clear the Canvas**:
+   - To draw a new digit, press the "Clear" button to clear the canvas area.
+
+5. **Save the Drawing**:
+   - Press the "Save" button to save the current drawing. The application will save the drawing with a unique filename based on the current timestamp.
+
+6. **Load a Drawing**:
+   - Press the "Load" button to open a file dialog where you can navigate to and select a previously saved drawing to load it into the canvas.
+
+7. **Undo/Redo Actions**:
+   - Use the "Undo" and "Redo" buttons to undo or redo the last drawing action.
+
+8. **Show Recognition History**:
+   - Press the "Show History" button to open a new window displaying the history of recognized digits along with their confidence scores.
 
 ## Directory Structure
 ```
