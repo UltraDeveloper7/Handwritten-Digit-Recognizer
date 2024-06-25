@@ -68,53 +68,48 @@ You can install the application by either cloning it from GitHub or downloading 
 ## Usage
 To use the Handwritten Digit Recognizer, follow the instructions in the "Running the Application" section to start the server, then navigate to the application in your web browser. You can draw digits and get real-time predictions with accuracy.
 
+Got it. Here's the updated structure with the "Instructions" as the third part:
+
 ## Running the Application
-1. The model is being trained by using the `train_digit_recognizer.py`:
 
-2. Run the GUI using `Gui.py`:
-    ```bash
-    python Gui.py
-    ```
+1. **Train the Model**:
+   - The model is being trained by using the `train_digit_recognizer.py`:
+     ```bash
+     python train_digit_recognizer.py
+     ```
 
-## Instructions 
-Instructions:
-Open the Application:
+2. **Run the GUI**:
+   - Launch the GUI using `Gui.py`:
+     ```bash
+     python Gui.py
+     ```
 
-Launch the Handwritten Digit Recognizer application.
-Draw a Digit:
+3. **Instructions**:
 
-Using your mouse, draw a digit inside the white canvas area labeled "Draw..".
-Recognize the Digit:
+   1. **Open the Application**:
+      - Launch the Handwritten Digit Recognizer application.
 
-Press the "Recognize" button located below the canvas to get the model's prediction.
-The application will display the recognized digit and the accuracy percentage just above the canvas.Based on the provided image and your previous instructions, here's the complete step-by-step guide for using the Handwritten Digit Recognizer application:
+   2. **Draw a Digit**:
+      - Using your mouse, draw a digit inside the white canvas area labeled "Draw..".
 
-## Instructions:
+   3. **Recognize the Digit**:
+      - Press the "Recognize" button located below the canvas to get the model's prediction.
+      - The application will display the recognized digit and the accuracy percentage just above the canvas.
 
-1. **Open the Application**:
-   - Launch the Handwritten Digit Recognizer application.
+   4. **Clear the Canvas**:
+      - To draw a new digit, press the "Clear" button to clear the canvas area.
 
-2. **Draw a Digit**:
-   - Using your mouse, draw a digit inside the white canvas area labeled "Draw..".
+   5. **Save the Drawing**:
+      - Press the "Save" button to save the current drawing. The application will save the drawing with a unique filename based on the current timestamp.
 
-3. **Recognize the Digit**:
-   - Press the "Recognize" button located below the canvas to get the model's prediction.
-   - The application will display the recognized digit and the accuracy percentage just above the canvas.
+   6. **Load a Drawing**:
+      - Press the "Load" button to open a file dialog where you can navigate to and select a previously saved drawing to load it into the canvas.
 
-4. **Clear the Canvas**:
-   - To draw a new digit, press the "Clear" button to clear the canvas area.
+   7. **Undo/Redo Actions**:
+      - Use the "Undo" and "Redo" buttons to undo or redo the last drawing action.
 
-5. **Save the Drawing**:
-   - Press the "Save" button to save the current drawing. The application will save the drawing with a unique filename based on the current timestamp.
-
-6. **Load a Drawing**:
-   - Press the "Load" button to open a file dialog where you can navigate to and select a previously saved drawing to load it into the canvas.
-
-7. **Undo/Redo Actions**:
-   - Use the "Undo" and "Redo" buttons to undo or redo the last drawing action.
-
-8. **Show Recognition History**:
-   - Press the "Show History" button to open a new window displaying the history of recognized digits along with their confidence scores.
+   8. **Show Recognition History**:
+      - Press the "Show History" button to open a new window displaying the history of recognized digits along with their confidence scores.
 
 ## Directory Structure
 ```
