@@ -1,4 +1,3 @@
-import keras
 from keras.datasets import mnist # type: ignore
 from keras.models import Sequential # type: ignore
 from keras.layers import Dense, Dropout, Flatten # type: ignore
@@ -76,9 +75,5 @@ class MNISTModel:
         self.train_model()
         self.evaluate_model()
         self.save_model()
-
-if __name__ == "__main__":
-    mnist_model = MNISTModel()
-    mnist_model.run()
 
 

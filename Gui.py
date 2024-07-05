@@ -10,10 +10,13 @@ import os
 import json
 from datetime import datetime
 
-mnist_model = MNISTModel()
-mnist_model.run()
+# Check if the model file exists
+model_file = 'mnist.h5'
+if not os.path.exists(model_file):
+    mnist_model = MNISTModel()
+    mnist_model.run()
 
-model = load_model('mnist.h5')
+model = load_model(model_file)
 
 def predict_digit(img):
     # Resize image to 28x28 pixels
